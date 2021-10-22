@@ -1,0 +1,12 @@
+.logo {
+  display: inline-block;
+  height: 8vw;
+  margin: 5vw 8vw;
+}
+
+@media screen and (min-width: 1024px) {
+  .logo {
+    height: 4vw;
+    margin: 3.5vw 4.3vw;
+  }
+}

@@ -1,0 +1,23 @@
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --softMagenta: hsl(300, 69%, 71%);
+  --white: 	hsl(0, 0%, 99%);
+
+  --poppins: 'Poppins', 'Open Sans';
+}
+
+body {
+  background-color: var(--violet);
+  background-image: url(../images/bg-mobile.svg);
+  background-position: top;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  font-family: var(--poppins);
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url(../images/bg-desktop.svg);
+    background-size: 100vw auto;
+  }
+}
