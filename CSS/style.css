@@ -19,5 +19,7 @@ body {
   body {
     background-image: url(../images/bg-desktop.svg);
     background-size: 100vw auto;
+    background-position-x: -5.5vw;
+    background-position-y: -1.6vw;
   }
 }
